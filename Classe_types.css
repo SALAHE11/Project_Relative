@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 20px;
+    background-image:#f5f7fa; /* Adjust this path if needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    margin-bottom: 20px;
+    background-color: rgba(221, 221, 221, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    color: black;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttonsub {
+    padding: 8px 16px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttonup {
+    padding: 8px 16px;
+    background-color: rgb(0, 173, 23);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttondel {
+    padding: 8px 16px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttonsub:hover {
+    transition: 0.3s ease-out;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.buttondel:hover {
+    transition: 0.3s ease-out;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.buttonup:hover {
+    transition: 0.3s ease-out;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.message {
+    color: white;
+    background-color: #009037;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
